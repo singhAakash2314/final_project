@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Auction</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="css3.css" rel="stylesheet">
+    <link rel="stylesheet" href="A.fonts,,_icomoon,,_style.css+css,,_bootstrap.min.css" />
+    <link href="jquery.mb.YTPlayer.min.css.pagespeed.cf.N2G3N4O1x5.css" media="all" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="A.style.css.pagespeed.cf.VV-RYYeCXt.css">
+    <script
+        nonce="6c6b5a00-1c02-4543-952b-a3464eee7a88">(function (w, d) { !function (a, e, t, r) { a.zarazData = a.zarazData || {}, a.zarazData.executed = [], a.zaraz = { deferred: [] }, a.zaraz.q = [], a.zaraz._f = function (e) { return function () { var t = Array.prototype.slice.call(arguments); a.zaraz.q.push({ m: e, a: t }) } }; for (const e of ["track", "set", "ecommerce", "debug"]) a.zaraz[e] = a.zaraz._f(e); a.addEventListener("DOMContentLoaded", (() => { var t = e.getElementsByTagName(r)[0], z = e.createElement(r), n = e.getElementsByTagName("title")[0]; for (n && (a.zarazData.t = e.getElementsByTagName("title")[0].text), a.zarazData.w = a.screen.width, a.zarazData.h = a.screen.height, a.zarazData.j = a.innerHeight, a.zarazData.e = a.innerWidth, a.zarazData.l = a.location.href, a.zarazData.r = e.referrer, a.zarazData.k = a.screen.colorDepth, a.zarazData.n = e.characterSet, a.zarazData.o = (new Date).getTimezoneOffset(), a.zarazData.q = []; a.zaraz.q.length;) { const e = a.zaraz.q.shift(); a.zarazData.q.push(e) } z.defer = !0, z.referrerPolicy = "origin", z.src = "/cdn-cgi/zaraz/s.js?z=" + btoa(encodeURIComponent(JSON.stringify(a.zarazData))), t.parentNode.insertBefore(z, t) })) }(w, d, 0, "script"); })(window, document);</script>
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    <div class="site-wrap">
+        <div class="site-mobile-menu site-navbar-target">
+            <div class="site-mobile-menu-header">
+                <div class="site-mobile-menu-close mt-3">
+                    <span class="icon-close2 js-menu-toggle"></span>
+                </div>
+            </div>
+            <div class="site-mobile-menu-body"></div>
+        </div>
+        <header class="site-navbar py-4 site-navbar-target" role="banner">
+            <div class="container">
+                <div class="d-flex align-items-center">
+                    <div class="site-logo">
+                        <a href="index.html" class="d-block">
+                            <img src="v.png"
+                                alt="Image" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="mr-auto">
+                        <nav class="site-navigation position-relative text-right" role="navigation">
+                            <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                                <li class="active">
+                                    <a href="index.html" class="nav-link text-left">Home</a>
+                                </li>
+                           
+                                <li>
+                                    <a href="sell.html" class="nav-link text-left">Tender</a>
+                                </li>
+                                <li>
+                                    <a href="http://localhost:8080/" class="nav-link text-left">Auction</a>
+                                </li>
+                                <li>
+                                    <a href="chat.html" class="nav-link text-left">Forum</a>
+                                </li>
+                                <li>
+                                    <a href="about.html" class="nav-link text-left">About</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html" class="nav-link text-left">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="ml-auto">
+                        <div class="social-wrap">
+                            <a href="login24.html" class="text-white">Sign In / Register</a>
+                            <a href="#"
+                                class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
+                                    class="icon-menu h3 text-white" style="position: relative; top: 7px;"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="intro-section" style="background-image:url(xhero_1.jpg.pagespeed.ic.HtRckp66fB.webp)">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md-7 mx-auto text-center" data-aos="fade-up">
+                        <h1>Buy, Sell, Bid</h1>
+                        <p>An Auction Win is Not a Sin. Are You Ready To Sell?.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!DOCTYPE html>
+        <html dir="ltr" lang="en-US" prefix="og: ">
+        
+        <head>
+        
+            <!-- All in One SEO Pro 4.2.0 -->
+        
+        
+            <!-- All in One SEO Pro -->
+        
+            
+            <!-- This site uses the Google Analytics by MonsterInsights plugin v8.5.0 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+            
+              
+            <script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+                var mi_version = '8.5.0';
+                var mi_track_user = true;
+                var mi_no_track_reason = '';
+        
+                var disableStrs = [
+                    'ga-disable-UA-72748423-1',
+                ];
+        
+                /* Function to detect opted out users */
+                function __gtagTrackerIsOptedOut() {
+                    for (var index = 0; index < disableStrs.length; index++) {
+                        if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+                            return true;
+                        }
+                    }
+        
+                    return false;
+                }
+        
+                /* Disable tracking if the opt-out cookie exists. */
+                if (__gtagTrackerIsOptedOut()) {
+                    for (var index = 0; index < disableStrs.length; index++) {
+                        window[disableStrs[index]] = true;
+                    }
+                }
+        
+                /* Opt-out function */
+                function __gtagTrackerOptout() {
+                    for (var index = 0; index < disableStrs.length; index++) {
+                        document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+                        window[disableStrs[index]] = true;
+                    }
+                }
+        
+                if ('undefined' === typeof gaOptout) {
+                    function gaOptout() {
+                        __gtagTrackerOptout();
+                    }
+                }
+                window.dataLayer = window.dataLayer || [];
+        
+                window.MonsterInsightsDualTracker = {
+                    helpers: {},
+                    trackers: {},
+                };
+                if (mi_track_user) {
+                    function __gtagDataLayer() {
+                        dataLayer.push(arguments);
+                    }
+        
+                    function __gtagTracker(type, name, parameters) {
+                        if (!parameters) {
+                            parameters = {};
+                        }
+        
+                        if (parameters.send_to) {
+                            __gtagDataLayer.apply(null, arguments);
+                            return;
+                        }
+        
+                        if (type === 'event') {
+        
+                            parameters.send_to = monsterinsights_frontend.ua;
+                            __gtagDataLayer(type, name, parameters);
+                        } else {
+                            __gtagDataLayer.apply(null, arguments);
+                        }
+                    }
+                    __gtagTracker('js', new Date());
+                    __gtagTracker('set', {
+                        'developer_id.dZGIzZG': true,
+                    });
+                    __gtagTracker('config', 'UA-72748423-1', { "forceSSL": "true", "link_attribution": "true" });
+                    window.gtag = __gtagTracker; (function () {
+                        /* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+                        /* ga and __gaTracker compatibility shim. */
+                        var noopfn = function () {
+                            return null;
+                        };
+                        var newtracker = function () {
+                            return new Tracker();
+                        };
+                        var Tracker = function () {
+                            return null;
+                        };
+                        var p = Tracker.prototype;
+                        p.get = noopfn;
+                        p.set = noopfn;
+                        p.send = function () {
+                            var args = Array.prototype.slice.call(arguments);
+                            args.unshift('send');
+                            __gaTracker.apply(null, args);
+                        };
+                        var __gaTracker = function () {
+                            var len = arguments.length;
+                            if (len === 0) {
+                                return;
+                            }
+                            var f = arguments[len - 1];
+                            if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+                                if ('send' === arguments[0]) {
+                                    var hitConverted, hitObject = false, action;
+                                    if ('event' === arguments[1]) {
+                                        if ('undefined' !== typeof arguments[3]) {
+                                            hitObject = {
+                                                'eventAction': arguments[3],
+                                                'eventCategory': arguments[2],
+                                                'eventLabel': arguments[4],
+                                                'value': arguments[5] ? arguments[5] : 1,
+                                            }
+                                        }
+                                    }
+                                    if ('pageview' === arguments[1]) {
+                                        if ('undefined' !== typeof arguments[2]) {
+                                            hitObject = {
+                                                'eventAction': 'page_view',
+                                                'page_path': arguments[2],
+                                            }
+                                        }
+                                    }
+                                    if (typeof arguments[2] === 'object') {
+                                        hitObject = arguments[2];
+                                    }
+                                    if (typeof arguments[5] === 'object') {
+                                        Object.assign(hitObject, arguments[5]);
+                                    }
+                                    if ('undefined' !== typeof arguments[1].hitType) {
+                                        hitObject = arguments[1];
+                                        if ('pageview' === hitObject.hitType) {
+                                            hitObject.eventAction = 'page_view';
+                                        }
+                                    }
+                                    if (hitObject) {
+                                        action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+                                        hitConverted = mapArgs(hitObject);
+                                        __gtagTracker('event', action, hitConverted);
+                                    }
+                                }
+                                return;
+                            }
+        
+                            function mapArgs(args) {
+                                var arg, hit = {};
+                                var gaMap = {
+                                    'eventCategory': 'event_category',
+                                    'eventAction': 'event_action',
+                                    'eventLabel': 'event_label',
+                                    'eventValue': 'event_value',
+                                    'nonInteraction': 'non_interaction',
+                                    'timingCategory': 'event_category',
+                                    'timingVar': 'name',
+                                    'timingValue': 'value',
+                                    'timingLabel': 'event_label',
+                                    'page': 'page_path',
+                                    'location': 'page_location',
+                                    'title': 'page_title',
+                                };
+                                for (arg in args) {
+                                    if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+                                        hit[gaMap[arg]] = args[arg];
+                                    } else {
+                                        hit[arg] = args[arg];
+                                    }
+                                }
+                                return hit;
+                            }
+        
+                            try {
+                                f.hitCallback();
+                            } catch (ex) {
+                            }
+                        };
+                        __gaTracker.create = newtracker;
+                        __gaTracker.getByName = newtracker;
+                        __gaTracker.getAll = function () {
+                            return [];
+                        };
+                        __gaTracker.remove = noopfn;
+                        __gaTracker.loaded = true;
+                        window['__gaTracker'] = __gaTracker;
+                    })();
+                } else {
+                    console.log("");
+                    (function () {
+                        function __gtagTracker() {
+                            return null;
+                        }
+                        window['__gtagTracker'] = __gtagTracker;
+                        window['gtag'] = __gtagTracker;
+                    })();
+                }
+            </script>
+            <!-- / Google Analytics by MonsterInsights -->
+            <link rel='stylesheet' id='wpforms-full-css'
+                href='https://wpforms.com/templates/wp-content/plugins/wpforms/assets/css/wpforms-full.min.css?ver=1.7.4'
+                type='text/css' media='all' />
+        
+            <link rel='stylesheet' id='wpf-wpforms-templates-blogpost-css'
+                href='https://wpforms.com/templates/wp-content/themes/wpf-theme/css/wpforms-templates/blogpost.min.css?ver=2.53.6'
+                type='text/css' media='all' />
+            <script type='text/javascript'
+                src='https://wpforms.com/templates/wp-content/plugins/google-analytics-premium/assets/js/frontend-gtag.min.js?ver=8.5.0'
+                id='monsterinsights-frontend-script-js'></script>
+            <script data-cfasync="false" data-wpfc-render="false" type="text/javascript"
+                id='monsterinsights-frontend-script-js-extra'>/* <![CDATA[ */
+                    var monsterinsights_frontend = { "js_events_tracking": "true", "download_extensions": "doc,pdf,ppt,zip,xls,docx,pptx,xlsx", "inbound_paths": "[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]", "home_url": "https:\/\/wpforms.com\/templates", "hash_tracking": "false", "ua": "UA-72748423-1", "v4_id": "" };/* ]]> */
+                </script>
+            <script type='text/javascript' src='https://wpforms.com/templates/wp-includes/js/jquery/jquery.min.js?ver=3.5.1'
+                id='jquery-core-js'></script>
+            <script type='text/javascript'
+                src='https://wpforms.com/templates/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2'
+                id='jquery-migrate-js'></script>
+            <!-- Stream WordPress user activity plugin v3.9.0 -->
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link rel="icon"
+                href="https://wpforms.com/templates/wp-content/uploads/2022/01/cropped-cropped-sullie-favicon-32x32.png"
+                sizes="32x32" />
+            <link rel="icon"
+                href="https://wpforms.com/templates/wp-content/uploads/2022/01/cropped-cropped-sullie-favicon-192x192.png"
+                sizes="192x192" />
+            <link rel="apple-touch-icon"
+                href="https://wpforms.com/templates/wp-content/uploads/2022/01/cropped-cropped-sullie-favicon-180x180.png" />
+            <meta name="msapplication-TileImage"
+                content="https://wpforms.com/templates/wp-content/uploads/2022/01/cropped-cropped-sullie-favicon-270x270.png" />
+            <!-- Google Tag Manager -->
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                dataLayer.push({
+                    'is_user_logged_in': false,
+                    'is_staff_member': 'false',
+                    'is_customer': 'false',
+                });
+                (
+                    function (w, d, s, l, i) {
+                        w[l] = w[l] || [];
+                        w[l].push({
+                            'gtm.start':
+                                new Date().getTime(), event: 'gtm.js'
+                        });
+                        var f = d.getElementsByTagName(s)[0],
+                            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+                        j.async = true;
+                        j.src =
+                            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                        f.parentNode.insertBefore(j, f);
+                    }
+                )(window, document, 'script', 'dataLayer', 'GTM-KF7KTD4');</script>
+            <!-- End Google Tag Manager -->
+            <style>
+                .wpforms-field-label,
+                .wpforms-field-description {
+                    word-break: normal !important;
+                }
+            </style>
+        </head>
+        
+        <body class="post-template-default single single-post postid-72 single-format-standard home wpforms-form-template-post">
+        
+            <!-- Google Tag Manager (noscript) -->
+            <noscript>
+                <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KF7KTD4" height="0" width="0"
+                    style="display:none;visibility:hidden"></iframe>
+            </noscript>
+            <!-- End Google Tag Manager (noscript) -->
+        
+            <header id="header" class="site-header" role="banner">
+        
+                <div class="container">
+        
+                   
+        
+                    <button id="navigation-toggle" title="Toggle site navigation"><svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 448 512" role="img" aria-hidden="true" focusable="false">
+                            <path
+                                d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z" />
+                        </svg></button>
+        
+                </div>
+        
+            </header>
+        
+        
+        
+        
+        
+        
+            <div style="clear:both;"></div>
+            </div>
+        
+            </div>
+        
+            </div>
+        
+            <div class="container">
+        
+                <div id="primary" class="site-content">
+        
+                    <main id="main" class="site-main" role="main">
+        
+        
+                        <article
+                            class="post-72 post type-post status-publish format-standard hentry category-event-planning category-registrations license-basic license-elite license-plus license-pro">
+        
+        
+        
+                            <div class="wpforms-container wpforms-container-full form-template-disabled" id="wpforms-71">
+                                <div class='form-preview-header'>
+                                    <h3>Form Preview</h3>
+                                  
+                                    <div style="clear:both;"></div>
+                                </div>
+                                <form id="wpforms-form-71" class="wpforms-validate wpforms-form" data-formid="71" method="post"
+                                    enctype="multipart/form-data"
+                                    action="/templates/auction-item-registration-form-template/?utm_source=WordPress&#038;utm_campaign=liteplugin&#038;utm_medium=builder-templates&#038;utm_content=Auction+Item+Registration+Form&#038;wpforms_form_id=71"
+                                    data-token="1e3b386b249c96db837e8d60b4a3ff67"><noscript
+                                        class="wpforms-error-noscript">Please enable JavaScript in your browser to
+                                        complete this form.</noscript>
+                                    <div class="wpforms-field-container">
+                                        <div id="wpforms-71-field_1-container" class="wpforms-field wpforms-field-name"
+                                            data-field-id="1"><label class="wpforms-field-label" for="wpforms-71-field_1">Name
+                                                <span class="wpforms-required-label">*</span></label>
+                                            <div class="wpforms-field-row wpforms-field-medium">
+                                                <div class="wpforms-field-row-block wpforms-first wpforms-one-half">
+                                                    <input type="text" id="wpforms-71-field_1"
+                                                        class="wpforms-field-name-first wpforms-field-required"
+                                                        name="wpforms[fields][1][first]" required><label
+                                                        for="wpforms-71-field_1"
+                                                        class="wpforms-field-sublabel after ">First</label>
+                                                </div>
+                                                <div class="wpforms-field-row-block wpforms-one-half"><input type="text"
+                                                        id="wpforms-71-field_1-last"
+                                                        class="wpforms-field-name-last wpforms-field-required"
+                                                        name="wpforms[fields][1][last]" required><label
+                                                        for="wpforms-71-field_1-last"
+                                                        class="wpforms-field-sublabel after ">Last</label></div>
+                                            </div>
+                                        </div>
+                                        <div id="wpforms-71-field_2-container" class="wpforms-field wpforms-field-email"
+                                            data-field-id="2"><label class="wpforms-field-label" for="wpforms-71-field_2">Email
+                                                <span class="wpforms-required-label">*</span></label><input type="email"
+                                                id="wpforms-71-field_2" class="wpforms-field-medium wpforms-field-required"
+                                                name="wpforms[fields][2]" required></div>
+                                        <div id="wpforms-71-field_3-container" class="wpforms-field wpforms-field-phone"
+                                            data-field-id="3"><label class="wpforms-field-label"
+                                                for="wpforms-71-field_3">Phone</label><input type="tel" id="wpforms-71-field_3"
+                                                class="wpforms-field-medium wpforms-smart-phone-field"
+                                                data-rule-smart-phone-field="true" name="wpforms[fields][3]"></div>
+                                        <div id="wpforms-71-field_4-container" class="wpforms-field wpforms-field-address"
+                                            data-field-id="4"><label class="wpforms-field-label"
+                                                for="wpforms-71-field_4">Address</label>
+                                            <div class="wpforms-field-row wpforms-field-medium">
+                                                <div><input type="text" id="wpforms-71-field_4"
+                                                        class="wpforms-field-address-address1"
+                                                        name="wpforms[fields][4][address1]"><label for="wpforms-71-field_4"
+                                                        class="wpforms-field-sublabel after ">Address Line 1</label>
+                                                </div>
+                                            </div>
+                                            <div class="wpforms-field-row wpforms-field-medium">
+                                                <div><input type="text" id="wpforms-71-field_4-address2"
+                                                        class="wpforms-field-address-address2"
+                                                        name="wpforms[fields][4][address2]"><label
+                                                        for="wpforms-71-field_4-address2"
+                                                        class="wpforms-field-sublabel after ">Address Line 2</label>
+                                                </div>
+                                            </div>
+                                            <div class="wpforms-field-row wpforms-field-medium">
+                                                <div class="wpforms-field-row-block wpforms-one-half wpforms-first">
+                                                    <input type="text" id="wpforms-71-field_4-city"
+                                                        class="wpforms-field-address-city"
+                                                        name="wpforms[fields][4][city]"><label for="wpforms-71-field_4-city"
+                                                        class="wpforms-field-sublabel after ">City</label>
+                                                </div>
+                                                <div class="wpforms-field-row-block wpforms-one-half"><input type="text"
+                                                        id="wpforms-71-field_4-state" class="wpforms-field-address-state"
+                                                        name="wpforms[fields][4][state]"><label for="wpforms-71-field_4-state"
+                                                        class="wpforms-field-sublabel after ">State / Province /
+                                                        Region</label></div>
+                                            </div>
+                                            <div class="wpforms-field-row wpforms-field-medium">
+                                                <div class="wpforms-field-row-block wpforms-one-half wpforms-first">
+                                                    <input type="text" id="wpforms-71-field_4-postal"
+                                                        class="wpforms-field-address-postal"
+                                                        name="wpforms[fields][4][postal]"><label for="wpforms-71-field_4-postal"
+                                                        class="wpforms-field-sublabel after ">Postal Code</label>
+                                                </div>
+                                                <div class="wpforms-field-row-block wpforms-one-half"><select
+                                                        id="wpforms-71-field_4-country" class="wpforms-field-address-country"
+                                                        name="wpforms[fields][4][country]">
+                                                        <option value="AF">Afghanistan</option>
+                                                        <option value="AL">Albania</option>
+                                                        <option value="DZ">Algeria</option>
+                                                        <option value="AS">American Samoa</option>
+                                                        <option value="AD">Andorra</option>
+                                                        <option value="AO">Angola</option>
+                                                        <option value="AI">Anguilla</option>
+                                                        <option value="AQ">Antarctica</option>
+                                                        <option value="AG">Antigua and Barbuda</option>
+                                                        <option value="AR">Argentina</option>
+                                                        <option value="AM">Armenia</option>
+                                                        <option value="AW">Aruba</option>
+                                                        <option value="AU">Australia</option>
+                                                        <option value="AT">Austria</option>
+                                                        <option value="AZ">Azerbaijan</option>
+                                                        <option value="BS">Bahamas</option>
+                                                        <option value="BH">Bahrain</option>
+                                                        <option value="BD">Bangladesh</option>
+                                                        <option value="BB">Barbados</option>
+                                                        <option value="BY">Belarus</option>
+                                                        <option value="BE">Belgium</option>
+                                                        <option value="BZ">Belize</option>
+                                                        <option value="BJ">Benin</option>
+                                                        <option value="BM">Bermuda</option>
+                                                        <option value="BT">Bhutan</option>
+                                                        <option value="BO">Bolivia (Plurinational State of)</option>
+                                                        <option value="BQ">Bonaire, Saint Eustatius and Saba</option>
+                                                        <option value="BA">Bosnia and Herzegovina</option>
+                                                        <option value="BW">Botswana</option>
+                                                        <option value="BV">Bouvet Island</option>
+                                                        <option value="BR">Brazil</option>
+                                                        <option value="IO">British Indian Ocean Territory</option>
+                                                        <option value="BN">Brunei Darussalam</option>
+                                                        <option value="BG">Bulgaria</option>
+                                                        <option value="BF">Burkina Faso</option>
+                                                        <option value="BI">Burundi</option>
+                                                        <option value="CV">Cabo Verde</option>
+                                                        <option value="KH">Cambodia</option>
+                                                        <option value="CM">Cameroon</option>
+                                                        <option value="CA">Canada</option>
+                                                        <option value="KY">Cayman Islands</option>
+                                                        <option value="CF">Central African Republic</option>
+                                                        <option value="TD">Chad</option>
+                                                        <option value="CL">Chile</option>
+                                                        <option value="CN">China</option>
+                                                        <option value="CX">Christmas Island</option>
+                                                        <option value="CC">Cocos (Keeling) Islands</option>
+                                                        <option value="CO">Colombia</option>
+                                                        <option value="KM">Comoros</option>
+                                                        <option value="CG">Congo</option>
+                                                        <option value="CD">Congo (Democratic Republic of the)</option>
+                                                        <option value="CK">Cook Islands</option>
+                                                        <option value="CR">Costa Rica</option>
+                                                        <option value="HR">Croatia</option>
+                                                        <option value="CU">Cuba</option>
+                                                        <option value="CW">Curaçao</option>
+                                                        <option value="CY">Cyprus</option>
+                                                        <option value="CZ">Czech Republic</option>
+                                                        <option value="CI">Côte d&#039;Ivoire</option>
+                                                        <option value="DK">Denmark</option>
+                                                        <option value="DJ">Djibouti</option>
+                                                        <option value="DM">Dominica</option>
+                                                        <option value="DO">Dominican Republic</option>
+                                                        <option value="EC">Ecuador</option>
+                                                        <option value="EG">Egypt</option>
+                                                        <option value="SV">El Salvador</option>
+                                                        <option value="GQ">Equatorial Guinea</option>
+                                                        <option value="ER">Eritrea</option>
+                                                        <option value="EE">Estonia</option>
+                                                        <option value="SZ">Eswatini (Kingdom of)</option>
+                                                        <option value="ET">Ethiopia</option>
+                                                        <option value="FK">Falkland Islands (Malvinas)</option>
+                                                        <option value="FO">Faroe Islands</option>
+                                                        <option value="FJ">Fiji</option>
+                                                        <option value="FI">Finland</option>
+                                                        <option value="FR">France</option>
+                                                        <option value="GF">French Guiana</option>
+                                                        <option value="PF">French Polynesia</option>
+                                                        <option value="TF">French Southern Territories</option>
+                                                        <option value="GA">Gabon</option>
+                                                        <option value="GM">Gambia</option>
+                                                        <option value="GE">Georgia</option>
+                                                        <option value="DE">Germany</option>
+                                                        <option value="GH">Ghana</option>
+                                                        <option value="GI">Gibraltar</option>
+                                                        <option value="GR">Greece</option>
+                                                        <option value="GL">Greenland</option>
+                                                        <option value="GD">Grenada</option>
+                                                        <option value="GP">Guadeloupe</option>
+                                                        <option value="GU">Guam</option>
+                                                        <option value="GT">Guatemala</option>
+                                                        <option value="GG">Guernsey</option>
+                                                        <option value="GN">Guinea</option>
+                                                        <option value="GW">Guinea-Bissau</option>
+                                                        <option value="GY">Guyana</option>
+                                                        <option value="HT">Haiti</option>
+                                                        <option value="HM">Heard Island and McDonald Islands</option>
+                                                        <option value="HN">Honduras</option>
+                                                        <option value="HK">Hong Kong</option>
+                                                        <option value="HU">Hungary</option>
+                                                        <option value="IS">Iceland</option>
+                                                        <option value="IN">India</option>
+                                                        <option value="ID">Indonesia</option>
+                                                        <option value="IR">Iran (Islamic Republic of)</option>
+                                                        <option value="IQ">Iraq</option>
+                                                        <option value="IE">Ireland (Republic of)</option>
+                                                        <option value="IM">Isle of Man</option>
+                                                        <option value="IL">Israel</option>
+                                                        <option value="IT">Italy</option>
+                                                        <option value="JM">Jamaica</option>
+                                                        <option value="JP">Japan</option>
+                                                        <option value="JE">Jersey</option>
+                                                        <option value="JO">Jordan</option>
+                                                        <option value="KZ">Kazakhstan</option>
+                                                        <option value="KE">Kenya</option>
+                                                        <option value="KI">Kiribati</option>
+                                                        <option value="KP">Korea (Democratic People&#039;s Republic of)
+                                                        </option>
+                                                        <option value="KR">Korea (Republic of)</option>
+                                                        <option value="XK">Kosovo</option>
+                                                        <option value="KW">Kuwait</option>
+                                                        <option value="KG">Kyrgyzstan</option>
+                                                        <option value="LA">Lao People&#039;s Democratic Republic
+                                                        </option>
+                                                        <option value="LV">Latvia</option>
+                                                        <option value="LB">Lebanon</option>
+                                                        <option value="LS">Lesotho</option>
+                                                        <option value="LR">Liberia</option>
+                                                        <option value="LY">Libya</option>
+                                                        <option value="LI">Liechtenstein</option>
+                                                        <option value="LT">Lithuania</option>
+                                                        <option value="LU">Luxembourg</option>
+                                                        <option value="MO">Macao</option>
+                                                        <option value="MG">Madagascar</option>
+                                                        <option value="MW">Malawi</option>
+                                                        <option value="MY">Malaysia</option>
+                                                        <option value="MV">Maldives</option>
+                                                        <option value="ML">Mali</option>
+                                                        <option value="MT">Malta</option>
+                                                        <option value="MH">Marshall Islands</option>
+                                                        <option value="MQ">Martinique</option>
+                                                        <option value="MR">Mauritania</option>
+                                                        <option value="MU">Mauritius</option>
+                                                        <option value="YT">Mayotte</option>
+                                                        <option value="MX">Mexico</option>
+                                                        <option value="FM">Micronesia (Federated States of)</option>
+                                                        <option value="MD">Moldova (Republic of)</option>
+                                                        <option value="MC">Monaco</option>
+                                                        <option value="MN">Mongolia</option>
+                                                        <option value="ME">Montenegro</option>
+                                                        <option value="MS">Montserrat</option>
+                                                        <option value="MA">Morocco</option>
+                                                        <option value="MZ">Mozambique</option>
+                                                        <option value="MM">Myanmar</option>
+                                                        <option value="NA">Namibia</option>
+                                                        <option value="NR">Nauru</option>
+                                                        <option value="NP">Nepal</option>
+                                                        <option value="NL">Netherlands</option>
+                                                        <option value="NC">New Caledonia</option>
+                                                        <option value="NZ">New Zealand</option>
+                                                        <option value="NI">Nicaragua</option>
+                                                        <option value="NE">Niger</option>
+                                                        <option value="NG">Nigeria</option>
+                                                        <option value="NU">Niue</option>
+                                                        <option value="NF">Norfolk Island</option>
+                                                        <option value="MK">North Macedonia (Republic of)</option>
+                                                        <option value="MP">Northern Mariana Islands</option>
+                                                        <option value="NO">Norway</option>
+                                                        <option value="OM">Oman</option>
+                                                        <option value="PK">Pakistan</option>
+                                                        <option value="PW">Palau</option>
+                                                        <option value="PS">Palestine (State of)</option>
+                                                        <option value="PA">Panama</option>
+                                                        <option value="PG">Papua New Guinea</option>
+                                                        <option value="PY">Paraguay</option>
+                                                        <option value="PE">Peru</option>
+                                                        <option value="PH">Philippines</option>
+                                                        <option value="PN">Pitcairn</option>
+                                                        <option value="PL">Poland</option>
+                                                        <option value="PT">Portugal</option>
+                                                        <option value="PR">Puerto Rico</option>
+                                                        <option value="QA">Qatar</option>
+                                                        <option value="RO">Romania</option>
+                                                        <option value="RU">Russian Federation</option>
+                                                        <option value="RW">Rwanda</option>
+                                                        <option value="RE">Réunion</option>
+                                                        <option value="BL">Saint Barthélemy</option>
+                                                        <option value="SH">Saint Helena, Ascension and Tristan da Cunha
+                                                        </option>
+                                                        <option value="KN">Saint Kitts and Nevis</option>
+                                                        <option value="LC">Saint Lucia</option>
+                                                        <option value="MF">Saint Martin (French part)</option>
+                                                        <option value="PM">Saint Pierre and Miquelon</option>
+                                                        <option value="VC">Saint Vincent and the Grenadines</option>
+                                                        <option value="WS">Samoa</option>
+                                                        <option value="SM">San Marino</option>
+                                                        <option value="ST">Sao Tome and Principe</option>
+                                                        <option value="SA">Saudi Arabia</option>
+                                                        <option value="SN">Senegal</option>
+                                                        <option value="RS">Serbia</option>
+                                                        <option value="SC">Seychelles</option>
+                                                        <option value="SL">Sierra Leone</option>
+                                                        <option value="SG">Singapore</option>
+                                                        <option value="SX">Sint Maarten (Dutch part)</option>
+                                                        <option value="SK">Slovakia</option>
+                                                        <option value="SI">Slovenia</option>
+                                                        <option value="SB">Solomon Islands</option>
+                                                        <option value="SO">Somalia</option>
+                                                        <option value="ZA">South Africa</option>
+                                                        <option value="GS">South Georgia and the South Sandwich Islands
+                                                        </option>
+                                                        <option value="SS">South Sudan</option>
+                                                        <option value="ES">Spain</option>
+                                                        <option value="LK">Sri Lanka</option>
+                                                        <option value="SD">Sudan</option>
+                                                        <option value="SR">Suriname</option>
+                                                        <option value="SJ">Svalbard and Jan Mayen</option>
+                                                        <option value="SE">Sweden</option>
+                                                        <option value="CH">Switzerland</option>
+                                                        <option value="SY">Syrian Arab Republic</option>
+                                                        <option value="TW">Taiwan, Republic of China</option>
+                                                        <option value="TJ">Tajikistan</option>
+                                                        <option value="TZ">Tanzania (United Republic of)</option>
+                                                        <option value="TH">Thailand</option>
+                                                        <option value="TL">Timor-Leste</option>
+                                                        <option value="TG">Togo</option>
+                                                        <option value="TK">Tokelau</option>
+                                                        <option value="TO">Tonga</option>
+                                                        <option value="TT">Trinidad and Tobago</option>
+                                                        <option value="TN">Tunisia</option>
+                                                        <option value="TR">Turkey</option>
+                                                        <option value="TM">Turkmenistan</option>
+                                                        <option value="TC">Turks and Caicos Islands</option>
+                                                        <option value="TV">Tuvalu</option>
+                                                        <option value="UG">Uganda</option>
+                                                        <option value="UA">Ukraine</option>
+                                                        <option value="AE">United Arab Emirates</option>
+                                                        <option value="GB">United Kingdom of Great Britain and Northern
+                                                            Ireland</option>
+                                                        <option value="UM">United States Minor Outlying Islands</option>
+                                                        <option value="US">United States of America</option>
+                                                        <option value="UY">Uruguay</option>
+                                                        <option value="UZ">Uzbekistan</option>
+                                                        <option value="VU">Vanuatu</option>
+                                                        <option value="VA">Vatican City State</option>
+                                                        <option value="VE">Venezuela (Bolivarian Republic of)</option>
+                                                        <option value="VN">Vietnam</option>
+                                                        <option value="VG">Virgin Islands (British)</option>
+                                                        <option value="VI">Virgin Islands (U.S.)</option>
+                                                        <option value="WF">Wallis and Futuna</option>
+                                                        <option value="EH">Western Sahara</option>
+                                                        <option value="YE">Yemen</option>
+                                                        <option value="ZM">Zambia</option>
+                                                        <option value="ZW">Zimbabwe</option>
+                                                        <option value="AX">Åland Islands</option>
+                                                    </select><label for="wpforms-71-field_4-country"
+                                                        class="wpforms-field-sublabel after ">Country</label></div>
+                                            </div>
+                                        </div>
+                                        <div id="wpforms-71-field_5-container" class="wpforms-field wpforms-field-text"
+                                            data-field-id="5"><label class="wpforms-field-label" for="wpforms-71-field_5">Item
+                                                Name</label><input type="text" id="wpforms-71-field_5"
+                                                class="wpforms-field-medium" name="wpforms[fields][5]"></div>
+                                        <div id="wpforms-71-field_6-container" class="wpforms-field wpforms-field-number"
+                                            data-field-id="6"><label class="wpforms-field-label"
+                                                for="wpforms-71-field_6">Estimated
+                                                Value</label><input type="number" pattern="\d*" id="wpforms-71-field_6"
+                                                class="wpforms-field-medium" name="wpforms[fields][6]"></div>
+                                        <div id="wpforms-71-field_7-container" class="wpforms-field wpforms-field-file-upload"
+                                            data-field-id="7"><label class="wpforms-field-label"
+                                                for="wpforms-71-field_7">Photos</label>
+                                            <div class="wpforms-uploader" data-field-id="7" data-form-id="71"
+                                                data-input-name="wpforms_71_7"
+                                                data-extensions="jpg,jpeg,jpe,gif,png,bmp,tiff,tif,ico,heic,asf,asx,wmv,wmx,wm,avi,divx,mov,qt,mpeg,mpg,mpe,mp4,m4v,ogv,webm,mkv,3gp,3gpp,3g2,3gp2,txt,asc,c,cc,h,srt,csv,tsv,ics,rtx,css,vtt,mp3,m4a,m4b,aac,ra,ram,wav,ogg,oga,flac,mid,midi,wma,wax,mka,rtf,pdf,class,tar,zip,gz,gzip,rar,7z,psd,xcf,doc,pot,pps,ppt,wri,xla,xls,xlt,xlw,mpp,docx,docm,dotx,dotm,xlsx,xlsm,xlsb,xltx,xltm,xlam,pptx,pptm,ppsx,ppsm,potx,potm,ppam,sldx,sldm,onetoc,onetoc2,onepkg,oxps,xps,odt,odp,ods,odg,odc,odb,odf,wp,wpd,key,numbers,pages"
+                                                data-max-size="134217728" data-max-file-number="5"
+                                                data-post-max-size="134217728" data-max-parallel-uploads="4"
+                                                data-parallel-uploads="true" data-file-chunk-size="2097152">
+                                                <div class="dz-message">
+                                                    <svg viewBox="0 0 1024 1024" focusable="false" data-icon="inbox"
+                                                        width="50px" height="50px" fill="#b1b1b1" aria-hidden="true">
+                                                        <path
+                                                            d="M885.2 446.3l-.2-.8-112.2-285.1c-5-16.1-19.9-27.2-36.8-27.2H281.2c-17 0-32.1 11.3-36.9 27.6L139.4 443l-.3.7-.2.8c-1.3 4.9-1.7 9.9-1 14.8-.1 1.6-.2 3.2-.2 4.8V830a60.9 60.9 0 0 0 60.8 60.8h627.2c33.5 0 60.8-27.3 60.9-60.8V464.1c0-1.3 0-2.6-.1-3.7.4-4.9 0-9.6-1.3-14.1zm-295.8-43l-.3 15.7c-.8 44.9-31.8 75.1-77.1 75.1-22.1 0-41.1-7.1-54.8-20.6S436 441.2 435.6 419l-.3-15.7H229.5L309 210h399.2l81.7 193.3H589.4zm-375 76.8h157.3c24.3 57.1 76 90.8 140.4 90.8 33.7 0 65-9.4 90.3-27.2 22.2-15.6 39.5-37.4 50.7-63.6h156.5V814H214.4V480.1z">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="modern-title">Click or drag files to this area to
+                                                        upload.</span>
+        
+                                                    <span class="modern-hint">You can upload up to 5 files.</span>
+                                                </div>
+                                            </div>
+                                            <input type="text" autocomplete="off" class="dropzone-input"
+                                                style="position:absolute!important;clip:rect(0,0,0,0)!important;height:1px!important;width:1px!important;border:0!important;overflow:hidden!important;padding:0!important;margin:0!important;"
+                                                id="wpforms-71-field_7" name="wpforms_71_7" value="">
+                                        </div>
+                                        <div id="wpforms-71-field_8-container" class="wpforms-field wpforms-field-textarea"
+                                            data-field-id="8"><label class="wpforms-field-label"
+                                                for="wpforms-71-field_8">Detailed
+                                                Description</label><textarea id="wpforms-71-field_8"
+                                                class="wpforms-field-medium" name="wpforms[fields][8]"></textarea></div>
+                                    </div>
+                                    <div class="wpforms-submit-container"><input type="hidden" name="wpforms[id]"
+                                            value="71"><input type="hidden" name="wpforms[author]" value="6"><input
+                                            type="hidden" name="wpforms[post_id]" value="72"><button type="submit"
+                                            name="wpforms[submit]" id="wpforms-submit-71" class="wpforms-submit"
+                                            data-alt-text="Sending..." data-submit-text="Submit" aria-live="assertive"
+                                            value="wpforms-submit">Submit</button></div>
+                                </form>
+                            </div> <!-- .wpforms-container -->
+                            
+                </article>
+        
+        
+                </main>
+        
+            </div>
+        
+        
+            <script>
+                !function (f, b, e, v, n, t, s) {
+                    if (f.fbq) return; n = f.fbq = function () {
+                        n.callMethod ?
+                            n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                    }; if (!f._fbq) f._fbq = n;
+                    n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
+                    t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
+                }(window,
+                    document, 'script', '//connect.facebook.net/en_US/fbevents.js');
+                fbq('init', '601050190042813');
+                fbq('track', "PageView");
+            </script>
+            <noscript><img height="1" width="1" style="display:none"
+                    src="https://www.facebook.com/tr?id=601050190042813&ev=PageView&noscript=1" /></noscript>
+            <!-- End Facebook Pixel Code -->
+            <script type="text/javascript">
+                /* MonsterInsights Scroll Tracking */
+                if (typeof (jQuery) !== 'undefined') {
+                    jQuery(document).ready(function () {
+                        function monsterinsights_scroll_tracking_load() {
+                            if ((typeof (__gaTracker) !== 'undefined' && __gaTracker && __gaTracker.hasOwnProperty("loaded") && __gaTracker.loaded == true) || (typeof (__gtagTracker) !== 'undefined' && __gtagTracker)) {
+                                (function (factory) {
+                                    factory(jQuery);
+                                }(function ($) {
+        
+                                    /* Scroll Depth */
+                                    "use strict";
+                                    var defaults = {
+                                        percentage: true
+                                    };
+        
+                                    var $window = $(window),
+                                        cache = [],
+                                        scrollEventBound = false,
+                                        lastPixelDepth = 0;
+        
+                                    /*
+                                     * Plugin
+                                     */
+        
+                                    $.scrollDepth = function (options) {
+        
+                                        var startTime = +new Date();
+        
+                                        options = $.extend({}, defaults, options);
+        
+                                        /*
+                                         * Functions
+                                         */
+        
+                                        function sendEvent(action, label, scrollDistance, timing) {
+                                            if ('undefined' === typeof MonsterInsightsObject || 'undefined' === typeof MonsterInsightsObject.sendEvent) {
+                                                return;
+                                            }
+                                            var type = 'event';
+                                            var eventName = action;
+                                            var fieldsArray = {
+                                                event_category: 'Scroll Depth',
+                                                event_label: label,
+                                                value: 1,
+                                                non_interaction: true,
+                                                send_to: 'UA-72748423-1'
+                                            };
+        
+                                            MonsterInsightsObject.sendEvent(type, eventName, fieldsArray);
+        
+                                            if (arguments.length > 3) {
+                                                var type = 'event';
+                                                var eventName = 'timing_complete';
+                                                fieldsArray = {
+                                                    event_category: 'Scroll Depth',
+                                                    name: action,
+                                                    event_label: label,
+                                                    value: timing,
+                                                    non_interaction: 1,
+                                                    send_to: 'UA-72748423-1'
+                                                };
+        
+                                                MonsterInsightsObject.sendEvent(type, eventName, fieldsArray);
+                                            }
+                                        }
+        
+                                        function calculateMarks(docHeight) {
+                                            return {
+                                                '25%': parseInt(docHeight * 0.25, 10),
+                                                '50%': parseInt(docHeight * 0.50, 10),
+                                                '75%': parseInt(docHeight * 0.75, 10),
+                                                /* Cushion to trigger 100% event in iOS */
+                                                '100%': docHeight - 5
+                                            };
+                                        }
+        
+                                        function checkMarks(marks, scrollDistance, timing) {
+                                            /* Check each active mark */
+                                            $.each(marks, function (key, val) {
+                                                if ($.inArray(key, cache) === -1 && scrollDistance >= val) {
+                                                    sendEvent('Percentage', key, scrollDistance, timing);
+                                                    cache.push(key);
+                                                }
+                                            });
+                                        }
+        
+                                        function rounded(scrollDistance) {
+                                            /* Returns String */
+                                            return (Math.floor(scrollDistance / 250) * 250).toString();
+                                        }
+        
+                                        function init() {
+                                            bindScrollDepth();
+                                        }
+        
+                                        /*
+                                         * Public Methods
+                                         */
+        
+                                        /* Reset Scroll Depth with the originally initialized options */
+                                        $.scrollDepth.reset = function () {
+                                            cache = [];
+                                            lastPixelDepth = 0;
+                                            $window.off('scroll.scrollDepth');
+                                            bindScrollDepth();
+                                        };
+        
+                                        /* Add DOM elements to be tracked */
+                                        $.scrollDepth.addElements = function (elems) {
+        
+                                            if (typeof elems == "undefined" || !$.isArray(elems)) {
+                                                return;
+                                            }
+        
+                                            $.merge(options.elements, elems);
+        
+                                            /* If scroll event has been unbound from window, rebind */
+                                            if (!scrollEventBound) {
+                                                bindScrollDepth();
+                                            }
+        
+                                        };
+        
+                                        /* Remove DOM elements currently tracked */
+                                        $.scrollDepth.removeElements = function (elems) {
+        
+                                            if (typeof elems == "undefined" || !$.isArray(elems)) {
+                                                return;
+                                            }
+        
+                                            $.each(elems, function (index, elem) {
+        
+                                                var inElementsArray = $.inArray(elem, options.elements);
+                                                var inCacheArray = $.inArray(elem, cache);
+        
+                                                if (inElementsArray != -1) {
+                                                    options.elements.splice(inElementsArray, 1);
+                                                }
+        
+                                                if (inCacheArray != -1) {
+                                                    cache.splice(inCacheArray, 1);
+                                                }
+        
+                                            });
+        
+                                        };
+        
+                                        /*
+                                         * Throttle function borrowed from:
+                                         * Underscore.js 1.5.2
+                                         * http://underscorejs.org
+                                         * (c) 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+                                         * Underscore may be freely distributed under the MIT license.
+                                         */
+        
+                                        function throttle(func, wait) {
+                                            var context, args, result;
+                                            var timeout = null;
+                                            var previous = 0;
+                                            var later = function () {
+                                                previous = new Date;
+                                                timeout = null;
+                                                result = func.apply(context, args);
+                                            };
+                                            return function () {
+                                                var now = new Date;
+                                                if (!previous) previous = now;
+                                                var remaining = wait - (now - previous);
+                                                context = this;
+                                                args = arguments;
+                                                if (remaining <= 0) {
+                                                    clearTimeout(timeout);
+                                                    timeout = null;
+                                                    previous = now;
+                                                    result = func.apply(context, args);
+                                                } else if (!timeout) {
+                                                    timeout = setTimeout(later, remaining);
+                                                }
+                                                return result;
+                                            };
+                                        }
+        
+                                        /*
+                                         * Scroll Event
+                                         */
+        
+                                        function bindScrollDepth() {
+        
+                                            scrollEventBound = true;
+        
+                                            $window.on('scroll.scrollDepth', throttle(function () {
+                                                /*
+                                                 * We calculate document and window height on each scroll event to
+                                                 * account for dynamic DOM changes.
+                                                 */
+        
+                                                var docHeight = $(document).height(),
+                                                    winHeight = window.innerHeight ? window.innerHeight : $window.height(),
+                                                    scrollDistance = $window.scrollTop() + winHeight,
+        
+                                                    /* Recalculate percentage marks */
+                                                    marks = calculateMarks(docHeight),
+        
+                                                    /* Timing */
+                                                    timing = +new Date - startTime;
+        
+                                                checkMarks(marks, scrollDistance, timing);
+                                            }, 500));
+        
+                                        }
+        
+                                        init();
+                                    };
+        
+                                    /* UMD export */
+                                    return $.scrollDepth;
+        
+                                }));
+        
+                                jQuery.scrollDepth();
+                            } else {
+                                setTimeout(monsterinsights_scroll_tracking_load, 200);
+                            }
+                        }
+                        monsterinsights_scroll_tracking_load();
+                    });
+                }
+                /* End MonsterInsights Scroll Tracking */
+        
+            </script>
+            <link rel='stylesheet' id='wpforms-smart-phone-field-css'
+                href='https://wpforms.com/templates/wp-content/plugins/wpforms/pro/assets/css/vendor/intl-tel-input.min.css?ver=17.0.5'
+                type='text/css' media='all' />
+            <link rel='stylesheet' id='wpforms-dropzone-css'
+                href='https://wpforms.com/templates/wp-content/plugins/wpforms/pro/assets/css/dropzone.min.css?ver=5.9.3'
+                type='text/css' media='all' />
+            <script type='text/javascript'
+                src='https://wpforms.com/templates/wp-content/mu-plugins/wpf-core/assets/js/form-template.min.js?ver=1.0.0'
+                id='form-template-js'></script>
+            <script type='text/javascript'
+                src='https://wpforms.com/templates/wp-content/themes/wpf-theme/js/lightslider.min.js?ver=1.1.6'
+                id='lightslider-js'></script>
+            <script type='text/javascript'
+                src='https://wpforms.com/templates/wp-content/themes/wpf-theme/js/jquery.matchHeight.min.js?ver=0.7.2'
+                id='matchheight-js'></script>
+            <script type='text/javascript'
+                src='https://wpforms.com/templates/wp-content/themes/wpf-theme/js/jquery.fitvids.min.js?ver=1.1'
+                id='fitvids-js'></script>
+            <script type='text/javascript'
+                src='https://wpforms.com/templates/wp-content/themes/wpf-theme/js/jquery.magnific-popup.min.js?ver=1.1.0'
+                id='magnific-popup-js'></script>
+            <script type='text/javascript' id='wpf-main-js-extra'>
+                /* <![CDATA[ */
+                var wpformsMain = { "siteUrl": "https:\/\/wpforms.com\/templates\/", "ajax": "https:\/\/wpforms.com\/templates\/wp-admin\/admin-ajax.php", "nonce": "7e77c0777a" };
+        /* ]]> */
+            </script>
+            <script type='text/javascript'
+                src='https://wpforms.com/templates/wp-content/themes/wpf-theme/js/wpf-main.min.js?ver=2.53.6'
+                id='wpf-main-js'></script>
+            <script type='text/javascript'
+                src='https://wpforms.com/templates/wp-content/themes/wpf-theme/js/wpf-navigation.min.js?ver=2.53.6'
+                id='wpf-navigation-js'></script>
+            <script type='text/javascript'
+                src='https://wpforms.com/templates/wp-content/plugins/wpforms/pro/assets/js/vendor/jquery.intl-tel-input.min.js?ver=17.0.5'
+                id='wpforms-smart-phone-field-js'></script>
+            <script type='text/javascript' id='wpforms-dropzone-js-extra'>
+                /* <![CDATA[ */
+                var wpforms_file_upload = { "url": "https:\/\/wpforms.com\/templates\/wp-admin\/admin-ajax.php", "errors": { "default_error": "Something went wrong, please try again.", "file_not_uploaded": "This file was not uploaded.", "file_limit": "File uploads exceed the maximum number allowed ({fileLimit}).", "file_extension": "File type is not allowed.", "file_size": "File exceeds the max size allowed.", "post_max_size": "File exceeds the upload limit allowed (128 MB)." }, "loading_message": "File upload is in progress. Please submit the form once uploading is completed." };
+        /* ]]> */
+            </script>
+            <script type='text/javascript'
+                src='https://wpforms.com/templates/wp-content/plugins/wpforms/pro/assets/js/vendor/dropzone.min.js?ver=5.9.3'
+                id='wpforms-dropzone-js'></script>
+            <script type='text/javascript'
+                src='https://wpforms.com/templates/wp-content/plugins/wpforms/assets/js/wpforms.min.js?ver=1.7.4'
+                id='wpforms-js'></script>
+            <script type='text/javascript' src='https://wpforms.com/templates/wp-includes/js/underscore.min.js?ver=1.8.3'
+                id='underscore-js'></script>
+            <script type='text/javascript' id='wp-util-js-extra'>
+                /* <![CDATA[ */
+                var _wpUtilSettings = { "ajax": { "url": "\/templates\/wp-admin\/admin-ajax.php" } };
+        /* ]]> */
+            </script>
+            <script type='text/javascript' src='https://wpforms.com/templates/wp-includes/js/wp-util.min.js?ver=5.7.1'
+                id='wp-util-js'></script>
+            <script type='text/javascript'
+                src='https://wpforms.com/templates/wp-content/plugins/wpforms/pro/assets/js/wpforms-file-upload.min.js?ver=1.7.4'
+                id='wpforms-file-upload-js'></script>
+            <script type='text/javascript'
+                src='https://wpforms.com/templates/wp-content/plugins/wpforms/assets/js/jquery.validate.min.js?ver=1.19.3'
+                id='wpforms-validation-js'></script>
+            <script type='text/javascript'
+                src='https://wpforms.com/templates/wp-content/plugins/wpforms/assets/js/jquery.inputmask.min.js?ver=5.0.7-beta.29'
+                id='wpforms-maskedinput-js'></script>
+            <script type='text/javascript'
+                src='https://wpforms.com/templates/wp-content/plugins/wpforms/assets/js/mailcheck.min.js?ver=1.1.2'
+                id='wpforms-mailcheck-js'></script>
+            <script type='text/javascript'
+                src='https://wpforms.com/templates/wp-content/plugins/wpforms/assets/js/punycode.min.js?ver=1.0.0'
+                id='wpforms-punycode-js'></script>
+            <script type='text/javascript'>
+                /* <![CDATA[ */
+                var wpforms_settings = { "val_required": "This field is required.", "val_email": "Please enter a valid email address.", "val_email_suggestion": "Did you mean {suggestion}?", "val_email_suggestion_title": "Click to accept this suggestion.", "val_email_restricted": "This email address is not allowed.", "val_number": "Please enter a valid number.", "val_number_positive": "Please enter a valid positive number.", "val_confirm": "Field values do not match.", "val_checklimit": "You have exceeded the number of allowed selections: {#}.", "val_limit_characters": "{count} of {limit} max characters.", "val_limit_words": "{count} of {limit} max words.", "val_recaptcha_fail_msg": "Google reCAPTCHA verification failed, please try again later.", "val_empty_blanks": "Please fill out all blanks.", "uuid_cookie": "1", "locale": "en", "wpforms_plugin_url": "https:\/\/wpforms.com\/templates\/wp-content\/plugins\/wpforms\/", "gdpr": "1", "ajaxurl": "https:\/\/wpforms.com\/templates\/wp-admin\/admin-ajax.php", "mailcheck_enabled": "1", "mailcheck_domains": [], "mailcheck_toplevel_domains": ["dev"], "is_ssl": "1", "currency_code": "USD", "currency_thousands": ",", "currency_decimals": "2", "currency_decimal": ".", "currency_symbol": "$", "currency_symbol_pos": "left", "val_requiredpayment": "Payment is required.", "val_creditcard": "Please enter a valid credit card number.", "val_post_max_size": "The total size of the selected files {totalSize} Mb exceeds the allowed limit {maxSize} Mb.", "val_time12h": "Please enter time in 12-hour AM\/PM format (eg 8:45 AM).", "val_time24h": "Please enter time in 24-hour format (eg 22:45).", "val_time_limit": "Please enter time between {minTime} and {maxTime}.", "val_url": "Please enter a valid URL.", "val_fileextension": "File type is not allowed.", "val_filesize": "File exceeds max size allowed. File was not uploaded.", "post_max_size": "134217728", "val_unique": "The value must be unique.", "val_password_strength": "A stronger password is required. Consider using upper and lower case letters, numbers, and symbols.", "val_phone": "Please enter a valid phone number.", "richtext_add_media_button": "", "entry_preview_iframe_styles": ["https:\/\/wpforms.com\/templates\/wp-includes\/js\/tinymce\/skins\/lightgray\/content.min.css?ver=5.7.1", "https:\/\/wpforms.com\/templates\/wp-includes\/css\/dashicons.min.css?ver=5.7.1", "https:\/\/wpforms.com\/templates\/wp-includes\/js\/tinymce\/skins\/wordpress\/wp-content.css?ver=5.7.1"] }
+        /* ]]> */
+            </script>
+        
+            <script defer
+                src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194"
+                integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
+                data-cf-beacon='{"rayId":"70a4dc236ab7dc7d","token":"3823126f458b4778a63ea0f346b9efee","version":"2021.12.0","si":100}'
+                crossorigin="anonymous"></script>
+        </body>
+        
+        </html>
+        
+        <!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1652372239 -->
+    
+
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <p class="mb-4"><img src="xlogo_footer.png.pagespeed.ic.7bXlmbsDvP.webp" alt="Image"
+                                    class="img-fluid" data-pagespeed-url-hash="3368299270"
+                                    onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></p>
+                            <p>Life is Full of Auction. Host and manage the auction with ease and secure</p>
+                            <p><a href="#">Learn More</a></p>
+                        </div>
+                        <div class="col-lg-3">
+                            <h3 class="footer-heading"><span>Solutions</span></h3>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Register</a></li>
+                                <li><a href="#">Login</a></li>
+                                <li><a href="#">Buy</a></li>
+                                <li><a href="#">Sell</a></li>
+                                <li><a href="#">Submit a bid</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3">
+                            <h3 class="footer-heading"><span>Services</span></h3>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Register</a></li>
+                                <li><a href="#">Login</a></li>
+                                <li><a href="#">Buy</a></li>
+                                <li><a href="#">Sell</a></li>
+                                <li><a href="#">Submit a bid</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3">
+                            <h3 class="footer-heading"><span>Contact</span></h3>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Help Center</a></li>
+                                <li><a href="#">Support Community</a></li>
+                                <li><a href="#">Press</a></li>
+                                <li><a href="#">Share Your Story</a></li>
+                                <li><a href="#">Our Supporters</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="copyright">
+                                <p>
+
+
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+                <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+                <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+                    stroke="#51be78" />
+            </svg></div>
+        <script src="jquery-3.3.1.min.js"></script>
+        <script src="jquery-migrate-3.0.1.min.js+jquery-ui.js+popper.min.js"></script>
+        <script>eval(mod_pagespeed_JfhYxYutIH);</script>
+        <script>eval(mod_pagespeed_IgDd0O$ZVg);</script>
+        <script>eval(mod_pagespeed_2T3V0sF8GL);</script>
+        <script src="bootstrap.min.js"></script>
+        <script src="owl.carousel.min.js+jquery.stellar.min.js+jquery.countdown.min.js"></script>
+        <script>eval(mod_pagespeed_ZRNFPkp0UU);</script>
+        <script>eval(mod_pagespeed_ucnmasD6$j);</script>
+        <script>eval(mod_pagespeed_zR_JbC_SPM);</script>
+        <script src="bootstrap-datepicker.min.js+jquery.easing.1.3.js+aos.js"></script>
+        <script>eval(mod_pagespeed_fvex8DGfkk);</script>
+        <script>eval(mod_pagespeed_zLe_L7r9eD);</script>
+        <script>eval(mod_pagespeed_K3M0IYF4OF);</script>
+        <script src="jquery.fancybox.min.js+jquery.sticky.js"></script>
+        <script>eval(mod_pagespeed_i28Olh_MpN);</script>
+        <script>eval(mod_pagespeed_hajh$5AxkE);</script>
+        <script src="jquery.mb.YTPlayer.min.js+main.js.pagespeed.jc.B6Ri8KVDLk.js"></script>
+        <script>eval(mod_pagespeed_IZ6X95zc$f);</script>
+        <script>eval(mod_pagespeed_5j61liNo8Z);</script>
+        <script defer src="jss.js"
+            integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
+            data-cf-beacon='{"rayId":"6ff7ec3759b21d8d","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.12.0","si":100}'
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
